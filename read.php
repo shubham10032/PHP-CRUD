@@ -32,14 +32,16 @@ $result  = $conn->query($sql);
 <body>
     
 <div class="container">
-    <h2> Users Details </h2>
+    <h2> Users Details </h2>  
+    <button type="button" class="btn btn-primary" onclick=reverse()>button</button>
+    
     
     <table class="table">
         <thead>
         <tr>
             <td> S.No</td>
             <td> FIRST NAME </td>
-            <td>LAST NAME </td>
+            <td> LAST NAME </td>
             <td> EMAIL</td>
             <td> PASSWORD</td>
             <td> GENDER</td>
@@ -79,13 +81,16 @@ $result  = $conn->query($sql);
         </tbody>
     </table>
 </div>
+ <script>
 
-
-
-
-
+    function reverse()
+    {
+        window.location.href = 'insert.php'
+    }
+ </script>
 
 
 
 </body>
 </html>
+
