@@ -32,8 +32,8 @@ $result  = $conn->query($sql);
 <body>
     
 <div class="container">
-    <h2> Users Details </h2>  
-    <button type="button" class="btn btn-primary" onclick=reverse()>button</button>
+    <h2> Users Details </h2>    
+    <button type="button" class="btn btn-primary" onclick=reverse()>Add</button>
     
     
     <table class="table">
